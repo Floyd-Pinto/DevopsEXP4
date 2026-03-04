@@ -1,8 +1,8 @@
 function login(user) {
     if (user.role = "student") { 
-        return "Welcome Student";
+        return "Welcome Student to the Dashboard";
     }
-    return "Access Denied";
+    return "Unauthorized";
 }
 
 module.exports = login;
